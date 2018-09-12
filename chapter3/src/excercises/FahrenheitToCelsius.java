@@ -13,18 +13,18 @@ public class FahrenheitToCelsius {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please insert a number of degrees in Fahrenheit at 8:00 >> ");
 		temp = input.nextDouble();
-		displayConversion(temp);
+		fahrenheitToCelsius(temp);
 		System.out.println("Please insert a number of degrees in Fahrenheit at 12:00 >> ");
 		temp2 = input.nextDouble();
-		displayConversion(temp2);
+		fahrenheitToCelsius(temp2);
 		System.out.println("Please insert a number of degrees in Fahrenheit at 5:00 >> ");
 		temp3 = input.nextDouble();
-		displayConversion(temp3);
+		fahrenheitToCelsius(temp3);
 	}
-	public static void displayConversion(double temp) 
+	public static void fahrenheitToCelsius(double allTheTemp) 
 	{
 	double celsius;
-	celsius = (temp - 32) * 5/9;
-	System.out.println("The temperature of " + temp + " Fahrenheit is " + celsius + " in Celsius.");
+	celsius = (allTheTemp - 32) * 5/9;
+	System.out.println("The temperature of " + allTheTemp + " Fahrenheit is " + celsius + " in Celsius.");
 	}
 }
