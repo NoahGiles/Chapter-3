@@ -1,8 +1,12 @@
 package youDoIt;
 
 public class SpaService {
-	private String serviceDesription;
+	private String serviceDescription;
 	private double price;
+	public SpaService() {
+		serviceDescription = "XXX";
+		price = 0;
+	}
 	public void setServiceDescription(String service) {
 		serviceDescription = service;
 	}
