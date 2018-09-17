@@ -20,7 +20,7 @@ public class MetricConversion {
 	}
 	public static void gallonsToLiters(int value) {
 		double gToL;
-		gToL = value / 3.7854;
-		System.out.println("There are " + gToL + " gallons in " + value + " liters.");
+		gToL = value * 3.7854;
+		System.out.println("There are " + gToL + " liters in " + value + " gallons.");
 	}
 }
